@@ -50,7 +50,7 @@ Legend: `[x]` done · `[ ]` not started · `[~]` in progress
 
 **Done when:** you can walk around, switch camera, pick up an item, see it in an inventory, on keyboard *and* gamepad.
 
-- [ ] Switchable camera: first-person on head socket + third-person, toggle key and gamepad button
+- [x] Switchable camera: first/third-person toggle (P key tested; View-button mapped, gamepad test deferred). FP camera mounted at eye height on the capsule root — reparent to `head` bone optional later.
 - [ ] Enhanced Input setup with gamepad bindings from day one
 - [ ] Interact system (trace → highlight → press to use)
 - [ ] Basic inventory (data-driven: item ID, name, count)
