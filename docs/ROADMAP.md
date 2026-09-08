@@ -41,7 +41,7 @@ Legend: `[x]` done · `[ ]` not started · `[~]` in progress
 - [x] Create Unreal project `Sanctuary` (Third Person template, Blueprint)
 - [x] Blender MCP connected (`uvx blender-mcp`)
 - [x] Unreal MCP connected (UEMCP, `uvx --with "mcp<2" uemcp`, Python plugin + Remote Execution)
-- [ ] Round-trip test: list actors + spawn `MCP_Test` cube
+- [x] Round-trip test: list actors + spawn `MCP_Test` cube
 - [x] Git init, Unreal .gitignore, LFS for .uasset/.umap, initial commit
 - [x] Create private GitHub repo `Sanctuary` + push (browser create, SSH remote)
 - [x] Commit this ROADMAP.md to `docs/`
