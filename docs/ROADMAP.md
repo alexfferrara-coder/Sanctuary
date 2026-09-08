@@ -52,7 +52,7 @@ Legend: `[x]` done · `[ ]` not started · `[~]` in progress
 
 - [x] Switchable camera: first/third-person toggle (P key tested; View-button mapped, gamepad test deferred). FP camera mounted at eye height on the capsule root — reparent to `head` bone optional later.
 - [x] Enhanced Input setup with gamepad bindings from day one (template + toggle: Move/Look/Jump/ToggleCamera all keyboard+gamepad)
-- [ ] Interact system (trace → highlight → press to use)
+- [~] Interact system: camera trace → `BPI_Interactable` interface → press `IA_Interact` (E / gamepad X) → works on test cube. TODO: sphere trace for aim tolerance + longer range, on-screen prompt, highlight.
 - [ ] Basic inventory (data-driven: item ID, name, count)
 - [ ] HUD widget: health, crosshair, interact prompt
 - [ ] Pause menu + settings scaffold
